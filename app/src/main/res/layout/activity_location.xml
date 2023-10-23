@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     tools:context=".location"
+     android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/Loc_img_1"
+        android:layout_width="400dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/harley" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-black"
+        android:text="FIKRI SHOWROOM"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+     <View
+         android:layout_width="match_parent"
+         android:layout_height="5dp"
+         android:layout_below="@id/Loc_img_1"
+         android:background="@color/grey"
+         />
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="LOCATION OF DEALER"
+         android:layout_marginTop="200sp"
+         android:layout_marginLeft="20sp"
+         android:fontFamily="sans-serif-black"
+         android:textColor="@color/black"
+         />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text=" Jl. Griya Permata Asri, blok b3.no1, Kec. Bojong soang, Kabupaten Bandung, Jawa Barat 40267"
+         android:layout_marginTop="230dp"
+         android:layout_marginLeft="10sp"
+         android:fontFamily="sans-serif-black"
+         android:textColor="@color/black"/>
+
+     <androidx.cardview.widget.CardView
+         android:layout_width="match_parent"
+         android:layout_height="200dp"
+         app:cardBackgroundColor="@color/grey"
+         android:layout_marginTop="350dp"
+         app:cardCornerRadius="30dp"
+         android:id="@+id/N_crd_1"
+         >
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@drawable/peta"
+             >
+
+         </RelativeLayout>
+
+
+
+     </androidx.cardview.widget.CardView>
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="150dp"
+         android:layout_marginTop="600dp"
+         android:backgroundTint="@color/grey"
+         android:text="BACK"
+         android:textColor="@color/black"
+         android:fontFamily="sans-serif-black"
+         android:id="@+id/locationn"
+         />
+
+
+
+ </RelativeLayout>

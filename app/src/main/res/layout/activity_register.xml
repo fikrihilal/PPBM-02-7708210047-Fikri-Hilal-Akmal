@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".register"
+        android:background="@color/grey"
+        android:backgroundTint="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/R_txt_1"
+            android:text="Welcome Onboard!"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            />
+
+        <ImageView
+            android:layout_width="108dp"
+            android:layout_height="115dp"
+            android:layout_below="@id/R_txt_1"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/harley"
+            android:id="@+id/R_img_1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:fontFamily="sans-serif-black"
+            android:layout_below="@id/R_img_1"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/R_txt_2"
+            />
+
+        <ImageView
+            android:layout_width="62dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/back"
+            android:id="@+id/A_back"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/R_txt_2"
+            android:padding="30dp"
+            android:orientation="vertical"
+            android:id="@+id/ly_1"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:background="#99ffffff"
+                android:hint="Enter your full name"
+                android:paddingLeft="10dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_marginTop="15dp"
+                android:background="#99ffffff"
+                android:hint="Enter your email"
+                android:paddingLeft="10dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_marginTop="15dp"
+                android:background="#99ffffff"
+                android:hint="Create password"
+                android:paddingLeft="10dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_marginTop="15dp"
+                android:background="#99ffffff"
+                android:hint="Confirm password"
+                android:paddingLeft="10dp"
+                />
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ly_1"
+            android:layout_centerHorizontal="true"
+            android:width="300dp"
+            android:text="LOGIN"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:cornerRadius="10dp"
+            android:backgroundTint="@color/grey"
+            android:id="@+id/R_btn_1"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/R_btn_1"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+        </LinearLayout>
+</RelativeLayout>

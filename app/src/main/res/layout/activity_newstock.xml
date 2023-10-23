@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newstock"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15sp"
+            android:layout_marginTop="70sp"
+            android:layout_marginEnd="15sp"
+            android:layout_marginBottom="15sp"
+            android:fontFamily="sans-serif-black"
+            android:text="NEW PRODUCT"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/harley"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="-90dp"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardBackgroundColor="@color/grey"
+            android:layout_marginTop="150dp"
+            app:cardCornerRadius="30dp"
+            android:id="@+id/N_crd_1"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:background="@drawable/gambarharley1"
+                >
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="lowrider"
+                android:layout_marginTop="175sp"
+                android:layout_marginLeft="165sp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardBackgroundColor="@color/grey"
+            android:layout_below="@id/N_crd_1"
+            android:layout_marginTop="15dp"
+            app:cardCornerRadius="30dp"
+            android:id="@+id/N_crd_2"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:background="@drawable/gambarharley2"
+                >
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DAYANA CLASSIC"
+                android:layout_marginTop="175sp"
+                android:layout_marginLeft="135sp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardBackgroundColor="@color/grey"
+            android:layout_below="@id/N_crd_2"
+            android:layout_marginTop="15dp"
+            app:cardCornerRadius="30dp"
+            android:id="@+id/N_crd_3"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/harley4"
+                android:text="sportster"
+                >
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView
+
+            ></RelativeLayout>
+</ScrollView>
